@@ -6,13 +6,15 @@ import { FormsModule }  from '@angular/forms';
 import { AppComponent } from './app.component';
 import { SectionListComponent } from './section-list/section-list.component';
 import { EditSectionComponent } from './edit-section/edit-section.component';
+import { NewSectionComponent } from './new-section/new-section.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     SectionListComponent,
-    EditSectionComponent
+    EditSectionComponent,
+    NewSectionComponent
   ],
   imports: [
     BrowserModule,

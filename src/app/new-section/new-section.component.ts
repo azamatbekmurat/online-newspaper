@@ -11,7 +11,7 @@ export class NewSectionComponent {
   @Output() sendSection = new EventEmitter();
 
   submitForm(description: string, priority: string) {
-    let newSection: Section = new Section(description, parseInt(priority));
+    let newSection: Section = new Section(name, article);
     this.sendSection.emit(newSection);
   }
 

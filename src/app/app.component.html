@@ -13,3 +13,4 @@
 
 <app-section-list [childSectionList]="masterSectionList" (clickSender)="editSection($event)"></app-section-list>
 <app-edit-section [childSelectedSection]="selectedSection" (doneButtonClickedSender)="finishedEditing()"></app-edit-section>
+<app-new-section (sendSection)="addSection($event)"></app-new-section>
