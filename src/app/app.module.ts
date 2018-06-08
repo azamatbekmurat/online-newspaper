@@ -4,11 +4,15 @@ import { FormsModule }  from '@angular/forms';
 
 
 import { AppComponent } from './app.component';
+import { SectionListComponent } from './section-list/section-list.component';
+import { EditSectionComponent } from './edit-section/edit-section.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SectionListComponent,
+    EditSectionComponent
   ],
   imports: [
     BrowserModule,
