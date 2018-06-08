@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { News } from './models/news.model';
 
 @Component({
   selector: 'app-root',
@@ -7,7 +8,7 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
-  currentFocus: string = 'Online Newspaper';
+  currentFocus: string = 'Epicodus Times';
   currentTime = new Date();
   month: number = this.currentTime.getMonth() + 1;
   day: number = this.currentTime.getDate();
