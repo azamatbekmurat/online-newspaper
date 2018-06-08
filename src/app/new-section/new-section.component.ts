@@ -1,15 +1,18 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Output, EventEmitter } from '@angular/core';
+import { Section } from '../models/section.model';
 
 @Component({
   selector: 'app-new-section',
   templateUrl: './new-section.component.html',
   styleUrls: ['./new-section.component.css']
 })
-export class NewSectionComponent implements OnInit {
+export class NewSectionComponent {
 
-  constructor() { }
+  @Output() sendSection = new EventEmitter();
 
-  ngOnInit() {
+  submitForm(description: string, priority: string) {
+    let newSection: Section = new Section(description, parseInt(priority));
+    this.sendSection.emit(newSection);
   }
 
 }
