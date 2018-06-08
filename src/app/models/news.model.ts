@@ -1,4 +1,6 @@
-export class News {
-  public done: boolean = false;
-  constructor(public description: string, public priority: number) { }
+export class Article {
+  constructor(
+    public title: string,
+    public description: string,
+    public date: number) { }
 }
