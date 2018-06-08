@@ -1,5 +1,5 @@
 import { Component, Input, Output, EventEmitter } from '@angular/core';
-import { Section } from '..models/section.model';
+import { Section } from '../models/section.model';
 
 @Component({
   selector: 'app-edit-section',
