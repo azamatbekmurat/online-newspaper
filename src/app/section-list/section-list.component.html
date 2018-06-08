@@ -1,5 +1,5 @@
-<ul>
-  <li *ngFor="let currentSection of childSectionList">{{currentSection.name}}
-    <button (click)="editButtonClicked(currentTask)">Edit!</button>
-  </li>
-</ul>
+<div>
+  <h4 *ngFor="let currentSection of childSectionList" (click)="editButtonClicked(currentSection)">{{currentSection.name}}
+    <!-- <button (click)="editButtonClicked(currentSection)">Edit!</button> -->
+  </h4>
+</div>
