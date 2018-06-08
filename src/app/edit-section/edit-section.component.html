@@ -1,3 +1,11 @@
-<p>
-  edit-section works!
-</p>
+<div *ngIf="childSelectedSection">
+  <h3>{{childSelectedSection.<title>Home</title>}}</h3>
+  <label>Enter Section Description:</label>
+  <input [(ngModel)]="childSelectedSection.title">
+  <label>Enter Task Priority (1-3):</label>
+  <br>
+  <input type="text" [(ngModel)]="childSelectedSection.article">1 <br>
+  <input type="text" [(ngModel)]="childSelectedSection.priority">2 <br>
+  <input type="text" [(ngModel)]="childSelectedSection.priority">3
+  <button (click)="finishedEditing()">Done</button>
+</div>

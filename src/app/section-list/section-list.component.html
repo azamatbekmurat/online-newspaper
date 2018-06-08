@@ -1,3 +1,5 @@
-<p>
-  section-list works!
-</p>
+<ul>
+  <li *ngFor="let currentSection of childSectionList">{{currentSection.title}}
+    <button (click)="editButtonClicked(currentTask)">Edit!</button>
+  </li>
+</ul>

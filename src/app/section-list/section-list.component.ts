@@ -10,9 +10,8 @@ export class SectionListComponent {
   @Input() childSectionList: Section[];
   @Output() clickSender = new EventEmitter();
 
-
-
-  ngOnInit() {
+  editButtonClicked(sectionToEdit: Section) {
+    this.clickSender.emit(sectionToEdit);
   }
 
 }
