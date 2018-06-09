@@ -15,7 +15,6 @@ export class AppComponent {
   day: number = this.currentTime.getDate();
   year: number = this.currentTime.getFullYear();
 
-
   selectedSection = null;
 
   masterSectionList: Section[] = [
