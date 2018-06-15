@@ -1,0 +1,38 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Article to Inventory</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Article Title:</label>
+        <br>
+        <input #newTitle>
+      </div>
+
+      <div>
+        <label>Article Author:</label>
+        <br>
+        <input #newAuthor>
+      </div>
+
+      <div>
+        <label>Article Text:</label>
+        <br>
+        <textarea #newText></textarea>
+      </div>
+
+      <div>
+        <label>Article Date:</label>
+        <br>
+        <textarea #newText></textarea>
+      </div>
+
+      <button (click)="submitForm(newTitle.value, newAuthor.value, newText.value, newDate.value); newTitle.value=''; newAuthor.value=''; newText.value=''; newDate.value=''">Add</button>
+    </div>
+  </div>
+</div>
+
+<div>
+  <!-- <app-list></app-list> -->
+</div>
