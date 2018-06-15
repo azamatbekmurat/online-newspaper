@@ -1,3 +1,12 @@
-<p>
-  article-list works!
-</p>
+<h2>News</h2>
+
+<div *ngFor="let article of articles | async"  class="panel panel-default">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(article)"><em>{{article.title}}</em> by {{article.author}} in {{article.date}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+      {{article.text}}
+      <hr>
+      <app-edit-article [selectedArticle]="article"></app-edit-article>
+    </div>
+  </div>
+</div>
