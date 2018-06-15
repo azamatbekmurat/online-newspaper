@@ -7,6 +7,7 @@ import { AppComponent } from '../app.component';
   styleUrls: ['./welcome.component.css']
 })
 export class WelcomeComponent implements OnInit {
+  currentFocus = 'Epicodus Times';
 
   constructor() { }
 
