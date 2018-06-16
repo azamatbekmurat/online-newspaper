@@ -21,14 +21,14 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 * Import the 'sample-articles.json' file from the project directory to your database
 * Create a 'api-keys.ts' file at 'online-newspaper/src/app' directory
 * In this file, input api-keys from Firebase in following format:
-    export var masterFirebaseConfig = {
-        apiKey: [your api key],
-        authDomain: [your authDomain],
-        databaseURL: [your databaseURL],
-        projectId: [your projectId],
-        storageBucket: [your storageBucket],
-        messagingSenderId: [your messagingSenderId]
-    }
+    ** export var masterFirebaseConfig = {
+          apiKey: [your api key],
+          authDomain: [your authDomain],
+          databaseURL: [your databaseURL],
+          projectId: [your projectId],
+          storageBucket: [your storageBucket],
+          messagingSenderId: [your messagingSenderId]
+      }
 * Run `$ng serve` for a dev server
 * Navigate to `http://localhost:4200/`
 
