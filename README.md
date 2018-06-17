@@ -10,7 +10,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### Link to Firebase Deployment of application
 
-*
+* https://newspaper-4e75d.firebaseapp.com
 
 ## Setup/Installation Requirements
 
