@@ -12,6 +12,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 * https://newspaper-4e75d.firebaseapp.com
 
+
+## Current features:
+
+* User can read news and events.
+
+* User can type his name to see how webpage appeals to him on welcome page.
+
+* Admin can update, delete existing news and events, and add new stories to the list
+
+## Future features:
+* Create user authentication page with email and password with the ability to create user account, login to existing account and log out from the account
+* Share news with other users and interact with them
+* Add ability to comment under news and articles
+
 ## Setup/Installation Requirements
 
 * Clone this repository to your desktop
